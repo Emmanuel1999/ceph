@@ -19,13 +19,13 @@
     "suppressImplicitAnyIndexErrors": true,
     "target": "es2015",
     "module": "es2020",
-    "baseUrl": "./",
+    "baseUrl": "src",
     "paths": {
       "~/*": ["src/*"]
     },
-    "typeRoots": [
+    /*"typeRoots": [
       "node_modules/@types"
-    ],
+    ],*/
     "lib": [
       "es2017",
       "dom"
@@ -38,4 +38,5 @@
     "node_modules",
     "cypress"
   ]
+  
 }
